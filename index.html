@@ -15,28 +15,33 @@
 </head>
 <body>
 
-  <div class="chooseplayer">Pick Your Player!</div>
+  <div class="playerselect">
+    <p>Pick Your Player!</p>
+    <button class="player1">Play as X</button>
+    <button class="player2">Play as O</button>
+  </div>
+
+  <div><img src="images/andthewinneris.jpeg" id="winner"></div>
+  <div><img src="images/CATSgame" id="drawimg"></div>
 
   <div class="gameContainer">
     <table class="gameboard">
-
-      <tr class="row">
-        <td class="empty button" id="one"></td>
-        <td class="empty button" id="two"></td>
-        <td class="empty button" id="three"></td>
-
+      <tr>
+        <td class="empty box row1 a col1 diag1"></td>
+        <td class="empty box row1 col2"></td>
+        <td class="empty box row1 col3 diag2"></td>
       </tr>
 
-      <tr class="row">
-        <td class="empty button" id="four"></td>
-        <td class="empty button" id="five"></td>
-        <td class="empty button" id="six"></td>
+      <tr class="row2">
+        <td class="empty box row2 a col1"></td>
+        <td class="empty box row2 col2 diag1 diag2"></td>
+        <td class="empty box row2 col3"></td>
       </tr>
 
-      <tr class="row">
-        <td class="empty button" id="seven"></td>
-        <td class="empty button" id="eight"></td>
-        <td class="empty button" id="nine"></td>
+      <tr class="row3">
+        <td class="empty box row3 a col1 diag2"></td>
+        <td class="empty box row3 col2"></td>
+        <td class="empty box row3 col3 diag1"></td>
       </tr>
 
     </table>

@@ -2,14 +2,21 @@ body {
   background-color: #8B4513;
 }
 
+button {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  box-shadow: 0 15px 20px black;
+}
 .gameboard {
   margin: 0 auto;
-  margin-top: 50vh;
+  margin-top: 18vh;
 }
 
-.chooseplayer {
-  margin: 0 auto;
-  margin-top: 40vh;
+.playerselect {
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 30px;
 }
 
 .empty {
@@ -35,6 +42,23 @@ background-color: #FFFFCC;
   width: 100px;
 }
 
+#winner {
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:100px;
+  top:100px;
+  display: none;
+}
+
+ #drawimg {
+   width:200px;
+   height:200px;
+   position:absolute;
+   left:100px;
+   top:100px;
+   display: none;
+ }
 
 /*body {
   background-color: blue;
