@@ -45,19 +45,19 @@ background-color: #FFFFCC;
 #winner {
   width:200px;
   height:200px;
-  position:absolute;
+  position: absolute;
   left:100px;
   top:100px;
-  display: none;
+  visibility: hidden;
 }
 
  #drawimg {
    width:200px;
    height:200px;
-   position:absolute;
+   position: absolute;
    left:100px;
    top:100px;
-   display: none;
+   visibility: hidden;
  }
 
 /*body {
